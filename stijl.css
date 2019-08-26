@@ -1,0 +1,295 @@
+.homepage{
+  background-image: url(Afbeeldingen/frontimage.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  cover;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: color-dodge;*/
+}
+
+.menubalk{
+  width: 100rem;
+  height: 3rem;
+  background-color: #3FA8B3;
+  margin-top: 1rem;
+}
+
+img{
+  width: 100rem;
+  height: 50rem
+}
+
+
+h1{
+  font-size: 3rem;
+  color: white;
+}
+
+h2{
+  font-family: helvetica;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 2rem;
+  left: 3rem;
+}
+
+.header{
+  position: relative;
+  left: 57rem;
+  top: 10rem;
+}
+
+.ondertekst{
+  position: relative;
+  top: 7rem;
+  left: 59rem;
+
+}
+
+h3{
+  font-family: helvetica;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  top: 7rem;
+  left: 3rem;
+  color: #238189;
+
+}
+
+
+a{
+  font-family: helvetica;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  color: ##444951;
+}
+
+li{
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  position: relative;
+  bottom: 2.5rem;
+  left: 60rem;
+  display: inline;
+}
+
+/*Animatie*/
+.landschap{
+  width: 20rem;
+  height: 20rem;
+  background-color: #EDF6F3;
+  position: relative;
+  left: 3rem;
+  bottom: 14rem;
+  overflow: hidden;
+  animation: achtergrondkleurVeranderen 8s;
+  animation-iteration-count: infinite;
+}
+
+.berg1{
+  width: 12rem;
+  height: 12rem;
+  background-color: #31655A;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -2rem;
+  bottom: -8rem;
+  z-index: 60;
+}
+
+.berg2{
+  width: 10rem;
+  height: 10rem;
+  background-color: #AED75D;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -7rem;
+  margin-left: 4rem;
+  z-index: 80;
+}
+
+.berg3{
+  width: 17rem;
+  height: 17rem;
+  background-color: #D4D4D4;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -10rem;
+  margin-left: 8rem;
+  z-index: 40;
+
+}
+
+.sneeuw{
+  background-color: white;
+  width: 2.5vw;
+  height: 2.5vw;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-left: 15.3rem;
+  margin-top: 7.9rem;
+  z-index: 80
+}
+
+.zon{
+ width: 3rem;
+ height: 3rem;
+ background-color: #FAD06A;
+ border-radius: 50%;
+ margin: auto;
+ margin-top: 2rem;
+ margin-left: 8rem;
+
+ animation: zonBewegen 8s;
+ z-index: 20;
+ animation-iteration-count: infinite;
+ transition-timing-function: ease;
+}
+
+@keyframes zonBewegen{
+ 0%{
+   transform: translate(0px, 50px);
+ }
+ 50%{
+   transform: translate(0px, 250px);
+ }
+ 100%{
+   background-color: #D4D4D4;
+   transform: translate(0px, 50px);
+ }
+}
+
+@keyframes achtergrondkleurVeranderen {
+  0% {
+  }
+
+  50% {
+
+  }
+  100% {
+    background-color: #73767a;
+  }
+}
+
+
+
+/*projects*/
+.slider{
+  background-color: #E8F3EE;
+  width: 100rem;
+  height: 22rem;
+  position: relative;
+  top: 42rem;
+}
+
+img{
+ width: 20rem;
+ height: 20rem;
+ margin: 0.5rem;
+ position: relative;
+ left: 0.5rem;
+ top: 0.5rem;
+ border: 0.5rem white;
+}
+
+img:last-child {
+  display: none;}
+
+.photograph{
+  position: relative;
+  top: 8rem;
+}
+
+.webdesign{
+  position: relative;
+  bottom: 25rem;
+}
+
+p{
+  font-family: helvetica;
+  font-size: 0.8rem;
+  position: relative;
+  left: 65rem;
+  bottom: 20rem;
+  text-align: justify;
+  line-height: 2rem;
+  color: black;
+}
+
+/*About me*/
+
+.paneel1{
+  height: 10rem;
+  width: 70rem;
+  position: absolute;
+  top: 40rem;
+  left: -10rem;
+  text-align: right;
+  font-family: helvetica;
+  text-transform: uppercase;
+  background-image: linear-gradient(-135deg,  #D8EDF5 0%,#E8F3EE 50%,#D8EDF5 100%);
+}
+
+.paneel2{
+  height: 10rem;
+  width: 70rem;
+  position: absolute;
+  top: 50rem;
+  left: 50rem;
+  font-family: helvetica;
+  text-transform: uppercase;
+  background-image: linear-gradient(-135deg,  #D8EDF5 0%,#E8F3EE 50%,#D8EDF5 100%);
+}
+
+.personal {
+  color: black;
+  position: relative;
+  bottom: 6rem;
+  right: 55.5rem;
+}
+
+.schoollife{
+  color: black;
+  position: relative;
+  bottom: 6rem;
+  right: 63rem;
+}
+
+.tekst1{
+  position: relative;
+  top: 22rem;
+  right: 53rem;
+  font-size: 0.5rem;
+  text-transform: none;
+}
+
+.tekt2 {
+  color: black;
+  position: relative;
+  top: 22rem;
+  right: 53rem;
+  font-size: 0.5rem;
+  text-transform: none;
+}
+
+/*contact*/
+iframe {
+  margin-left: -10px;
+}
+
+.kader {
+  margin: 1rem auto;
+  overflow: hidden;
+  width: 610px;
+  height: 590px;
+  top: -3rem;
+}
